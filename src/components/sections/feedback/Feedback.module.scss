@@ -1,0 +1,26 @@
+.feedback {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  &__content {
+    width: 1440px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__form {
+      height: 400px;
+      width: 70%;
+      border-radius: 39px;
+      border: 3px solid #FFF;
+
+      background: linear-gradient(145deg, rgba(72, 67, 238, 0.59), rgba(233, 100, 67, 0.47));
+
+      box-shadow: 2px 2px 100px 0px rgba(66, 66, 66, 0.10) inset, -2px -2px 100px 0px rgba(255, 255, 255, 0.10) inset;
+      backdrop-filter: blur(25px);
+    }
+  }
+}

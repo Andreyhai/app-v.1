@@ -1,0 +1,24 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__slider {
+    width: 1440px;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__center {
+      height: 100%;
+    }
+
+    &__left {
+      height: 428px;
+    }
+
+    &__right {
+      height: 428px;
+    }
+  }
+}
