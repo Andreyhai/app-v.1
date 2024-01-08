@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         <section className={s.portfolio}>
             <section style={{width: "100%"}}>
-                <Title name={"Портфолио"} color={"#FFF"} background={"linear-gradient(92deg, #361D72 -1.07%, #8015ED 100%)"}/>
+                <Title name={"Портфолио"} color={"#FFF"} background={"linear-gradient(92deg, #361D72 -1.07%, #8015ED 100%)"} shadow={"10px 10px 20px 0px #A1A1A1"} fw={"400"} fs={"64px"}/>
             </section>
 
             <section className={s.portfolio__slider}>

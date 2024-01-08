@@ -72,18 +72,23 @@ const Work = () => {
                   <section style={{
                       width: "30%"
                   }}>
-                      <img style={{
-                          width: "100%"
-                      }} src={props.src} alt={props.src}/>
+                      <img
+                          style={{
+                              width: "100%"
+                      }}
+                          src={props.src}
+                          alt={props.src}
+                      />
                   </section>
-                  <section style={{
-                      display: "flex",
-                      gap: "30px",
-                      justifyContent: "right",
-                      flexWrap: "wrap",
-                      height: "80%",
-                      width: "50%",
-                      alignItems: "center"
+                  <section
+                      style={{
+                          display: "flex",
+                          gap: "30px",
+                          justifyContent: "right",
+                          flexWrap: "wrap",
+                          height: "80%",
+                          width: "50%",
+                          alignItems: "center"
                   }}>
                       <section
                           style={{
@@ -100,21 +105,27 @@ const Work = () => {
                               lineHeight: "normal",
                               height: "fit-content",
                           }}
-                      >{props.title}</section>
-                      <section style={{
-                          padding: "20px 40px",
-                          alignSelf: "center",
-                          width: "100%",
-                          borderRadius: "70px",
-                          background: props.bg,
-                          color: "#FADFB7",
-                          textAlign: "center",
-                          fontFamily: "Kumbh Sans",
-                          fontSize: "32px",
-                          fontStyle: "normal",
-                          fontWeight: 400,
-                          lineHeight: "normal",
-                      }}>{props.name}</section>
+                      >
+                          {props.title}
+                      </section>
+                      <section
+                          style={{
+                              padding: "20px 40px",
+                              alignSelf: "center",
+                              width: "100%",
+                              borderRadius: "70px",
+                              background: props.bg,
+                              color: "#FADFB7",
+                              textAlign: "center",
+                              fontFamily: "Kumbh Sans",
+                              fontSize: "32px",
+                              fontStyle: "normal",
+                              fontWeight: 400,
+                              lineHeight: "normal",
+                      }}
+                      >
+                          {props.name}
+                      </section>
                   </section>
               </section>
           )
@@ -130,30 +141,37 @@ const Work = () => {
         }}>
 
             <section style={{
-                // background: "red",
                 width: "1440px",
                 display: "flex",
                 flexWrap: "wrap",
             }}>
-                <Title color={"#FADFB7"}
-                       background={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"}
-                       name={"Что мы делаем"}/>
-                <MySection state={"right"} title={"Проектировка"}
-                           name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
-                           src={img1}
-                           bg={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"}
+                <Title
+                    color={"#FADFB7"}
+                    background={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"}
+                    name={"Что мы делаем"}
+                    shadow={"10px 10px 20px 0px #A1A1A1"}
+                    fw={"400"}
+                    fs={"64px"}
                 />
-                <MySection state={"left"}
-                           title={"Разработка"}
-                           name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
-                           src={img2}
-                           bg={"linear-gradient(101deg, #E857FF 0%, #8015ED 100%)"}
+                <MySection
+                    state={"right"} title={"Проектировка"}
+                    name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
+                    src={img1}
+                    bg={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"}
                 />
-                <MySection state={"right"}
-                           title={"Публикация"}
-                           name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
-                           src={img3}
-                           bg={"linear-gradient(101deg, #00FF1A 0%, #1537ED 100%)"}
+                <MySection
+                    state={"left"}
+                    title={"Разработка"}
+                    name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
+                    src={img2}
+                    bg={"linear-gradient(101deg, #E857FF 0%, #8015ED 100%)"}
+                />
+                <MySection
+                    state={"right"}
+                    title={"Публикация"}
+                    name={"Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. "}
+                    src={img3}
+                    bg={"linear-gradient(101deg, #00FF1A 0%, #1537ED 100%)"}
                 />
             </section>
         </section>

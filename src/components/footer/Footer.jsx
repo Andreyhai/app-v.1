@@ -23,53 +23,60 @@ const Footer = () => {
                 </div>
             </section>
             <section className={s.footer__links}>
-                <section className={s.footer__links__link}>
-                    <div className={s.footer__links__link__title}>
-                        <div></div>
-                    </div>
-                    <div className={s.footer__links__link__body}>
-                        <div style={{width: "90%"}}></div>
-                        <div style={{width: "70%"}}></div>
-                        <div style={{width: "60%"}}></div>
-                        <div style={{width: "90%"}}></div>
-                    </div>
-                </section>
+                <div style={{
+                    width: "1440px",
+                    display: "flex",
+                    gap: "30px",
+                }}>
+                    <section className={s.footer__links__link}>
+                        <div className={s.footer__links__link__title}>
+                            <div></div>
+                        </div>
+                        <div className={s.footer__links__link__body}>
+                            <div style={{width: "90%"}}></div>
+                            <div style={{width: "70%"}}></div>
+                            <div style={{width: "60%"}}></div>
+                            <div style={{width: "90%"}}></div>
+                        </div>
+                    </section>
 
-                <section className={s.footer__links__link}>
-                    <div className={s.footer__links__link__title}>
-                        <div></div>
-                    </div>
-                    <div className={s.footer__links__link__body}>
-                        <div style={{width: "90%"}}></div>
-                        <div style={{width: "70%"}}></div>
-                        <div style={{width: "60%"}}></div>
-                        <div style={{width: "90%"}}></div>
-                    </div>
-                </section>
+                    <section className={s.footer__links__link}>
+                        <div className={s.footer__links__link__title}>
+                            <div></div>
+                        </div>
+                        <div className={s.footer__links__link__body}>
+                            <div style={{width: "90%"}}></div>
+                            <div style={{width: "70%"}}></div>
+                            <div style={{width: "60%"}}></div>
+                            <div style={{width: "90%"}}></div>
+                        </div>
+                    </section>
 
-                <section className={s.footer__links__link}>
-                    <div className={s.footer__links__link__title}>
-                        <div></div>
-                    </div>
-                    <div className={s.footer__links__link__body}>
-                        <div style={{width: "90%"}}></div>
-                        <div style={{width: "70%"}}></div>
-                        <div style={{width: "60%"}}></div>
-                        <div style={{width: "90%"}}></div>
-                    </div>
-                </section>
+                    <section className={s.footer__links__link}>
+                        <div className={s.footer__links__link__title}>
+                            <div></div>
+                        </div>
+                        <div className={s.footer__links__link__body}>
+                            <div style={{width: "90%"}}></div>
+                            <div style={{width: "70%"}}></div>
+                            <div style={{width: "60%"}}></div>
+                            <div style={{width: "90%"}}></div>
+                        </div>
+                    </section>
 
-                <section className={s.footer__links__link}>
-                    <div className={s.footer__links__link__title}>
-                        <div></div>
-                    </div>
-                    <div className={s.footer__links__link__body}>
-                        <div style={{width: "90%"}}></div>
-                        <div style={{width: "70%"}}></div>
-                        <div style={{width: "60%"}}></div>
-                        <div style={{width: "90%"}}></div>
-                    </div>
-                </section>
+                    <section className={s.footer__links__link}>
+                        <div className={s.footer__links__link__title}>
+                            <div></div>
+                        </div>
+                        <div className={s.footer__links__link__body}>
+                            <div style={{width: "90%"}}></div>
+                            <div style={{width: "70%"}}></div>
+                            <div style={{width: "60%"}}></div>
+                            <div style={{width: "90%"}}></div>
+                        </div>
+                    </section>
+                </div>
+
             </section>
 
         </footer>

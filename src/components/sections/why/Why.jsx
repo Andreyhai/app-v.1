@@ -9,7 +9,7 @@ const Why = () => {
         <section>
             <div className={s.why}>
                 <div className={s.why__title}>
-                    <Title name={"Почему именно мы?"} color={"#361D72"} background={"#FADFB7"}/>
+                    <Title name={"Почему именно мы?"} color={"#361D72"} background={"#FADFB7"} shadow={"10px 10px 20px 0px #A1A1A1"} fw={"400"} fs={"64px"}/>
                 </div>
                 <div className={s.why__phone}>
                     <img src={ilustration} alt={ilustration} />

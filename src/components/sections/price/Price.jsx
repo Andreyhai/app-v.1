@@ -79,7 +79,7 @@ const Price = () => {
     return (
         <section className={s.price}>
             <section style={{width: "100%"}}>
-                <Title name={"Наш прайс"} color={"#FADFB7"} background={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"}/>
+                <Title name={"Наш прайс"} color={"#FADFB7"} background={"linear-gradient(101deg, #361D72 0%, #8015ED 100%)"} shadow={"10px 10px 20px 0px #A1A1A1"} fw={"400"} fs={"64px"}/>
             </section>
             <div style={{
                 display:"flex",

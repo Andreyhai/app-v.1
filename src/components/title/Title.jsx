@@ -6,15 +6,16 @@ const Title = (props) => {
         padding: "30px 50px 30px 50px",
         color: props.color,
         textAlign: "center",
-        fontSize: "64px",
+        fontSize: props.fs,
         fontStyle: "normal",
-        fontWeight: "400",
+        fontWeight: props.fw,
         lineHeight: "normal",
         borderRadius: "100px",
         background: props.background,
-        boxShadow: "10px 10px 20px 0px #A1A1A1",
+        boxShadow: props.shadow,
         width: "fit-content",
-        height: "fit-content"
+        height: "fit-content",
+        cursor: props.cursor
     }
 
     return (
